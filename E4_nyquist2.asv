@@ -140,6 +140,5 @@ S = solve(eqn0)
 % w = 1 o -1
 
 % Calculamos 'A'
-syms Ax
-eqn1 = 4*U/Ax/pi == 1/5;
+eqn1 = 4*U./A/pi == 1/5;
 S = solve(eqn1)
